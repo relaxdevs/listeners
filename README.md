@@ -1,11 +1,9 @@
-# listeners
 
-Flutter state-management 
-
+## Flutter state-management 
 
 
 Init
-```
+```dart
 @override
 void initState() {
   listeners.add('counter', this);
@@ -15,7 +13,7 @@ void initState() {
 ```
 
 Update
-```
+```dart
 void onPressed() {
   //do logic
 
